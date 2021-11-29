@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f6fcfa;
 }
 
 .App-logo {
@@ -12,7 +13,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+  .container2{
+    display: flex;    
+    flex-wrap: wrap;
+  }
+.film-card{
 
+  width: 30%;
+  min-width: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow:auto;
+  box-shadow: 0 2px 5px #aaa;
+  margin: 15px;
+  background-color: white;
+  text-align: center;
+  height: 310px;
+}
+.film-image{
+  width: 100%;
+  min-width: 200px;
+}
+.film-title{
+  height: 60px;
+   
+}
+.film-text{ 
+ 
+ margin: 5px;
+ }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +55,40 @@
 
 .App-link {
   color: #61dafb;
+}
+.input-group-text{
+  height: 50px;
+}
+.ss{ 
+ margin-top: 30px;
+}
+#btnr{
+    float: left;
+}
+#btnr:hover{
+  background-color: transparent;
+  color: blue;
+}
+#details{
+  background-color:white ;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px #aaa;
+ 
+}
+ 
+ 
+ tr:first-child{
+   font-weight: bold;
+   font-size: large;
+   text-transform: uppercase;
+ color: rgb(41, 40, 40);
+ border:none;
+}
+tr td:last-child{
+  border:none;
+}
+tr td:first-child{
+  border:none;
 }
 
 @keyframes App-logo-spin {
