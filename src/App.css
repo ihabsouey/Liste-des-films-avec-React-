@@ -20,7 +20,7 @@
 .film-card{
 
   width: 30%;
-   padding: 10px 0px 25px 0px;
+   padding: 0px 0px 5px 0px;
   box-sizing: border-box;
   border-radius: 10px;
   overflow:auto;
@@ -28,13 +28,16 @@
   margin: 15px;
   background-color: white;
   text-align: center;
-  
+  position: relative;
 }
 .film-image{
   width: 100%;
   
 }
 .film-title{
+  position: relative;
+ 
+  margin: 5px;
   height: 60px;
    
 }

@@ -11,8 +11,10 @@ const Table = (props) => {
                         ( film.title && ( 
                             <article class="film-card">
                         
-                              <h4 className="film-title"> {film.title}</h4>  
+                         
                             <img className="film-image" src={"https://image.tmdb.org/t/p/w500/" + film.backdrop_path } alt={film.title} /> 
+                            <br/><br/>
+                            <h4 className="film-title"> {film.title}</h4>  
                                    <Link to={"/details/"+film.id} >
                                        <button className="btn btn-primary film-text" >Voire plus détails</button> </Link>  
                                        </article>   
