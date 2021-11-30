@@ -20,7 +20,7 @@ function Search() {
         <div className="container">
            <br/><br/>
           
-            <Link to="/" > 
+            <Link to="/Liste-des-films-avec-React-/" > 
                     <button className="btn btn-primary" id="btnr">
                     
                     <img src="https://www.freeiconspng.com/uploads/home-page-icon-0.png" width="35" alt="Search Free Icon Image" /> 

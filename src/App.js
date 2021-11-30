@@ -7,11 +7,13 @@ import {BrowserRouter,Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
-        <Route  exact path="/" component={Affiche} />
+     
+     
+      <BrowserRouter>
+         <Route exact path="/Liste-des-films-avec-React-/" component={Affiche} />
         <Route exact path="/search" component={Search} />
         <Route exact path="/details/:id" component={Details} />
-      </BrowserRouter>
+      </BrowserRouter> 
     </div>
   );
 }
