@@ -6,8 +6,7 @@ const Table = (props) => {
     return (
        
           
-                     <div className="container2">         <article class="film-card"><h4 class="film-title"> Friendzone</h4><img class="film-image" src="https://image.tmdb.org/t/p/w500//8Df8Wsstu76Wr8cTPfNHrSveVe6.jpg" alt="Friendzone"/><a href="/details/869617"><button class="btn btn-primary film-text">Voire plus détails</button> </a></article>
-      
+                     <div className="container2">        
                     {films.map((film) => (
                         ( film.title && ( 
                             <article class="film-card">
