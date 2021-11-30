@@ -26,8 +26,8 @@ function Affiche () {
         <button className="btn btn-primary" id="btnr">
             Recherche des films &nbsp;
             <img src="https://www.freeiconspng.com/uploads/search-icon-png-21.png" width="35" alt="Search Free Icon Image" /> 
-        </button> </Link>
-            <h1> Liste des films populaires  </h1> 
+        </button> </Link> <br/> <br/> <br/>
+            <h1> Liste des films populaires  </h1><br/> 
               <Table films={films}/>
         </div>
     )

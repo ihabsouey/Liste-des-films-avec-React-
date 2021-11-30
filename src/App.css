@@ -20,7 +20,7 @@
 .film-card{
 
   width: 30%;
-  min-width: 300px;
+   padding: 10px 0px 25px 0px;
   box-sizing: border-box;
   border-radius: 10px;
   overflow:auto;
@@ -28,11 +28,11 @@
   margin: 15px;
   background-color: white;
   text-align: center;
-  height: 310px;
+  
 }
 .film-image{
   width: 100%;
-  min-width: 200px;
+  
 }
 .film-title{
   height: 60px;
@@ -90,7 +90,11 @@ tr td:last-child{
 tr td:first-child{
   border:none;
 }
-
+@media (max-width:999px){
+  .film-card{
+    width: 90%;
+   }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
