@@ -17,6 +17,10 @@
     display: flex;    
     flex-wrap: wrap;
   }
+  .film-card:hover{
+    transition: all 0.3s  ease-in;
+    transform: scale(1.05);
+  }
 .film-card{
 
   width: 30%;
