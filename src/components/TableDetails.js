@@ -31,7 +31,7 @@ const TableDetails = (props) => {
                 <table className="table table-bordered " id="details" >
                     <tbody>
                         <tr>
-                            <td> original_title</td>
+                            <th> original_title</th>
                             <td> {film.original_title} </td>
                         </tr>
                         <tr>
