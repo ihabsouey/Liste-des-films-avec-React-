@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import Table from "../components/Table"
+ 
 function Search() {
     const [query,setQuery] = useState('')
     const [films,setFilms] = useState([])
@@ -17,15 +18,28 @@ function Search() {
 
     
     return (
+        <div>
+          <header>
+                <nav>
+                <Link to="/Liste-des-films-avec-React-/" > 
+                    <button className="btn btn-primary " id="btnr">
+                    
+                    <img src="https://www.freeiconspng.com/uploads/home-page-icon-0.png" width="35" alt="Search Free Icon Image" />  Accueil
+                    </button>
+                </Link>
+                </nav>
+                
+                <div>
+                <h1 id="headerTitle"> Recherche d'un film  </h1>
+                </div>
+
+            </header>
+
+        
         <div className="container">
            <br/><br/>
           
-            <Link to="/Liste-des-films-avec-React-/" > 
-                    <button className="btn btn-primary" id="btnr">
-                    
-                    <img src="https://www.freeiconspng.com/uploads/home-page-icon-0.png" width="35" alt="Search Free Icon Image" /> 
-                    </button>
-                </Link>
+            
               
                 <div className="ss">  <br/>
                     <div class="input-group input-group-sm mb-3" >
@@ -50,7 +64,7 @@ function Search() {
            
            
         </div>
-
+        </div>
     )
 }
 export default Search

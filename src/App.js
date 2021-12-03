@@ -12,7 +12,9 @@ function App() {
       <BrowserRouter>
          <Route exact path="/Liste-des-films-avec-React-/" component={Affiche} />
         <Route exact path="/search" component={Search} />
+         <Route exact path="/Liste-des-films-avec-React-/search" component={Search} />
         <Route exact path="/details/:id" component={Details} />
+        <Route exact path="/Liste-des-films-avec-React-/details/:id" component={Details} />
       </BrowserRouter> 
     </div>
   );

@@ -26,23 +26,41 @@ function Details(){
         })
     },[API])
     console.log(film);
-    if(!film){
-        return <h1>Film introuvable</h1>
-    }else{
     return (
-       <div className="container">
-           <br/><br/>
-           <Link to="/Liste-des-films-avec-React-/" > 
-        <button className="btn btn-primary" id="btnr">
-            Page d'accueil &nbsp;
-            <img src="https://www.freeiconspng.com/uploads/home-page-icon-0.png" width="35" alt="Search Free Icon Image" /> 
-        </button> </Link>
-           <TableDetails film={film}/>
+
+   <div>
+        
+          <header>
+                <nav>
+                <Link to="/Liste-des-films-avec-React-/" > 
+                    <button className="btn btn-primary " id="btnr">
+                    
+                    <img src="https://www.freeiconspng.com/uploads/home-page-icon-0.png" width="35" alt="Search Free Icon Image" />  Accueil
+                    </button>
+                </Link>
+                </nav>
+                
+                <div>
+                <h1 id="headerTitle">  Plus de détails sur le film  </h1>
+                </div>
+
+            </header>
+
+
+  
+     {(film) &&
+         (
+            <div>
+               
+                <TableDetails film={film}/>
+            
+             </div>
+     
+         )}
        
-        </div>
-
-    )}
-
+    { (!film) &&  ( <h1>Film introuvable</h1> ) }
+     </div>
+     )
 }
 
 export default Details
