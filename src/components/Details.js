@@ -58,7 +58,7 @@ function Details(){
      
          )}
        
-    { (!film) &&  ( <h1>Film introuvable</h1> ) }
+    { (!film) &&  ( <h1>Loading ...</h1> ) }
      </div>
      )
 }
