@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Liste-des-films-avec-React-/static/css/main.5eeae821.chunk.css",
-    "main.js": "/Liste-des-films-avec-React-/static/js/main.4af1caed.chunk.js",
-    "main.js.map": "/Liste-des-films-avec-React-/static/js/main.4af1caed.chunk.js.map",
+    "main.js": "/Liste-des-films-avec-React-/static/js/main.90f37c73.chunk.js",
+    "main.js.map": "/Liste-des-films-avec-React-/static/js/main.90f37c73.chunk.js.map",
     "runtime-main.js": "/Liste-des-films-avec-React-/static/js/runtime-main.b08b99b5.js",
     "runtime-main.js.map": "/Liste-des-films-avec-React-/static/js/runtime-main.b08b99b5.js.map",
     "static/css/2.fe21ad67.chunk.css": "/Liste-des-films-avec-React-/static/css/2.fe21ad67.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.fe21ad67.chunk.css",
     "static/js/2.90c80e0f.chunk.js",
     "static/css/main.5eeae821.chunk.css",
-    "static/js/main.4af1caed.chunk.js"
+    "static/js/main.90f37c73.chunk.js"
   ]
 }
